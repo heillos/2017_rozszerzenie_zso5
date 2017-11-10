@@ -29,9 +29,17 @@ public class Ewa extends Actor
             move( -1 );
             turn( 90 );
         }
+        
+        if( Greenfoot.isKeyDown("j") ) 
+        { 
+            String ile = Greenfoot.ask("Ile mam jabłek dodać?");
+            koszyczek = Integer.parseInt(ile);
+        }
+        
+        
     }
 
-    public void stawianieJablek()
+    private void stawianieJablek()
     {
         // tu będzie stawianie jabłek
         if( Greenfoot.isKeyDown("space") && 
@@ -48,12 +56,14 @@ public class Ewa extends Actor
         }
     }        
 
-    public void zrywanieJablek()
+    private void zrywanieJablek()
     {
         if( this.isTouching( Drzewo.class ) ) 
         {
             koszyczek = 5;
         }
+        
+       
     }
     
     public void act() 
@@ -63,3 +73,14 @@ public class Ewa extends Actor
         zrywanieJablek();
     }    
 }
+
+
+
+
+
+
+
+
+
+
+

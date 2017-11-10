@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Fri Nov 10 08:04:53 CET 2017
+class.MyWorld.image=bricks2.jpg
+mainWindow.width=850
+class.Pizza.superclass=greenfoot.Actor
+class.MyWorld.superclass=greenfoot.World
+project.charset=UTF-8
+version=3.0.0
+class.Pizza.image=pizza_cheese.png
+world.lastInstantiated=MyWorld
+mainWindow.y=40
+class.Kocik.image=cat-sit.png
+mainWindow.x=40
+class.Kocik.superclass=greenfoot.Actor
+mainWindow.height=600
